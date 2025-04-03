@@ -24,55 +24,57 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 2. Coloca dentro de ella el archivo [docker-compose.yml](./entornoMaquinasInseguras/docker-compose.yml) que tienes en la carpeta entornoMaquinasInseguras de este repositorio: 
 3. Levanta el escenario multicontedor con `docker-compose up -d`
 
+![](images/1.png)
+
 > Las máquinas vulnerables que hemos creado son:
 >> **DVWA**.  A esta máquina accedemos a través del puerto **8001**. Es posible que tarde un poco en crear la base de datos o sea que  _un poco de paciencia_ si da error en la BBDD.
 >>
->> Por lo tanto accedemos a ella en el enlace: <localhost:8001>. ![](images/DVWA1.png)
+>> Por lo tanto accedemos a ella en el enlace: <localhost:8001>. ![](images/2.png)
 >>
 >> Podemos acceder con usuario **Admin** y sin contraseña... -o con el que queramos- 
 >>
 >> Al igual que en bWAPP que veremos a continuación, el primer paso será crear la Base de Datos. 
 >>
->> ![](images/DVWA2.png)
->> ![](images/DVWA3.png)
+>> ![](images/3.png)
+>> ![](images/4.png)
 >>
 >> Ya con el usuario **admin* y la contraseña **password** podemos hacer a completar los retos que queramos.
->> ![](images/DVWA4.png)
+>> ![](images/5.png)
 >>
 >---
 >
 >> **bWAPP**. A esta máquina accedemos a través del puerto **8002**. 
 >>
->> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/bwapp1.png)
+>> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/7.png)
 >>
->> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php> ![](images/bwapp2.png)
+>> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php> ![](images/8.png)
 >>
 >> Y ya podremos acceder pulsando en login o creando un nuevo usuario. Las credenciales de acceso por defecto son usuario: bee, contraseña: bug y podemos seleccionar en este momento el **nivel de seguridad** que queremos que tenga la máquina.
 >>
->> ![](images/bwapp3.png)
->> ![](images/bwapp4.png)
+>> ![](images/9.png)
+>> ![](images/10.png)
 >>
 >> Y después de acceder podremos realizar un gran número de entrenamientos de explotación de vulnerabilidades.
 >>
->> ![](images/bwapp5.png)
+>> ![](images/11.png)
 >---
 >
 >> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80** o del **8080**. 
 >>
->> Por lo tanto accedemos a ella en el enlace: <http://localhost>. ![](images/multill1.png)
+>> Por lo tanto accedemos a ella en el enlace: <http://localhost>. ![](images/12.png)
 >>
 >> Al igual que en los casos anteriores, el primer paso será crear la Base de Datos. 
 >>
->> ![](images/multill12.png)
+>> ![](images/13.png)
 >>
 >> En este caso no necesitamos usuario y contraseña para acceder.
 >> 
 >> En multillidae tenemos además del servicio de BBDD otros servicios creados:
 >> - Servicio PhpAdmin para acceder a las BBDD. Accedemos desde <http://localhost:81>. 
->> ![](images/multill3.png)
+>> ![](images/14.png)
 >>
 >> - Servicio PhpLdapAdmin para acceder al servicio de directorio LDAP. Accedemos desde <http://localhost:82>. 
->> ![](images/multill4.png)
+>> ![](images/15.png)
 
 
 ## Entorno de pruebas
