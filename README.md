@@ -179,6 +179,8 @@ Por otra parte tenemos también los puertos que utilizarán las máquinas y las 
 >	- BBDD
 >	- Usuario de BBDD
 
+![](images/16.png)
+
 Aquí finalizaría la configuración de nuestro escenario multicontenedor. Seguimos con pasos:
 - Levantar el escenario con docker-compose up -d 
 
@@ -196,7 +198,7 @@ docker-compose up -d
 ~~~
 
 Y si todo va bien, tendremos nuestro escenario levantado:
-![](images/composeup.png)
+![](images/17.png)
 
 
 > Para 
