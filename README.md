@@ -198,6 +198,7 @@ docker-compose up -d
 ~~~
 
 Y si todo va bien, tendremos nuestro escenario levantado:
+
 ![](images/17.png)
 
 
